@@ -1,0 +1,8 @@
+main:
+  - uri: /home
+    requestMethod: GET
+    class: Main\Controllers\HomeController::indexAction
+
+  - uri: "/hello/{name}"
+    requestMethod: GET
+    class: Main\Controllers\HomeController::helloAction
